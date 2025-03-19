@@ -604,13 +604,38 @@ a {
   height: 12px;
 }
 
-.modal .modal-form .input-group .input-container:focus-within .icon {
+.modal :focus-within .icon {
   fill: #4d5ae5;
 }
 
-.modal .modal-form .input-group .input-container:focus-within {
+.modal-form:focus-within{
+  fill: #4d5ae5;
+}
+
+.input-group:focus-within {
+  fill: #4d5ae5;
+}
+
+.input-container:focus-within{
+  fill: #4d5ae5;
+}
+
+.modal:focus-within {
   border: 1px solid #4d5ae5;
 }
+
+.modal-form:focus-within {
+  border: 1px solid #4d5ae5;
+}
+
+.input-group:focus-within {
+  border: 1px solid #4d5ae5;
+}
+
+.input-container:focus-within {
+  border: 1px solid #4d5ae5;
+}
+
 
 .modal .modal-form .input-group .input-container input {
   width: 100%;
